@@ -1,5 +1,6 @@
 ## Getting-Cleaning-Data-Course-Project ##
 # Getting and Cleaning Data Course Final Project #
+### March, 2017 ###
 
 ## Significant files ##
 
@@ -17,6 +18,10 @@
 
 ### Output ###
 * fulldatasummary.txt
+
+### Documentation ###
+* README.md
+* codebook.md
 
 ## Process
 1. Load the data test data.
