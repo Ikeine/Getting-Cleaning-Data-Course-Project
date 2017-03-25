@@ -51,6 +51,6 @@ fulldata$activity <- sub("6","6 LAYING",fulldata$activity)
 fulldatasummary <- fulldata %>% group_by(subject,activity) %>% summarize_each(funs(mean))
 
 # Output the summarized data into a file.
-write.table(fulldatasummary,"fulldatasummary.txt")
+write.table(fulldatasummary,"fulldatasummary.txt",row.name = FALSE)
 
 
